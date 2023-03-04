@@ -11,8 +11,10 @@
     "deploy": "next build && next export && npx thirdweb@latest upload out"
   },
   "dependencies": {
+    "@mailchain/sdk": "^0.16.1",
     "@thirdweb-dev/react": "^3.9.0",
     "@thirdweb-dev/sdk": "^3.9.0",
+    "dotenv": "^16.0.3",
     "ethers": "^5.6.8",
     "next": "^13",
     "react": "^18.2",
